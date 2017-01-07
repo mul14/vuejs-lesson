@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <form action="" class="form-horizontal">
 
       <h3>Pilih Jurusan</h3>
@@ -37,8 +37,8 @@
     name: 'Lesson1',
 
     components: {
-      SelectOptionGroup: require('./SelectOptionGroup.vue'),
-      RadioOptionGroup: require('./RadioOptionGroup.vue')
+      SelectOptionGroup: require('./components/SelectOptionGroup.vue'),
+      RadioOptionGroup: require('./components/RadioOptionGroup.vue')
     },
 
     data() {

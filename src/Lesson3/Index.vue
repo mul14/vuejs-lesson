@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <div class="input-group">
       <input type="text" class="form-control input-lg" v-model="newTask" @keyup.enter="addNewTask">
       <span class="input-group-btn"><button class="btn btn-primary btn-lg" @click="addNewTask">Add New Task</button></span>
@@ -99,9 +99,3 @@
     }
   }
 </script>
-
-<style scoped>
-  .container {
-    margin-top: 40px;
-  }
-</style>
